@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin");
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Ubuntu', 'sans-sarif';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.bg{
+    background: url('https://images.unsplash.com/photo-1534126511673-b6899657816a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80') no-repeat center center/cover;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
+    z-index: -1;
+    filter: blur(0px);
+}
+
+form{
+    border: solid black 2px;
+    border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.loading-text{
+    font-size: 50px;
+    color: #fff;
+}
+
+.container{
+    background-color: #fff;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#textInput{
+    margin: 20px;
+    border: solid grey 1px;
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px;
+
+}
+
+#btnInput{
+    font-size: 1em;
+    background-color: #24a0ed;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+}
